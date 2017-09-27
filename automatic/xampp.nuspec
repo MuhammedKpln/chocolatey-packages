@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Bitnami-XAMPP</id>
+    <title>XAMPP</title>
+    <version>7.1.8</version>
+    <authors>Bitnami</authors>
+    <owners>Muhammed Kaplan</owners>
+    <summary>Apache Server for your Windows.</summary>
+    <description>XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl.</description>
+    <projectUrl>https://www.apachefriends.org/tr/index.html</projectUrl>
+    <packageSourceUrl>https://github.com/MuhammedKpln/chocolatey-packages/</packageSourceUrl>
+    <tags>xampp bitnami mysql</tags>
+    <copyright>Bitnami</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/MuhammedKpln/chocolatey-packages/master/icons/xampp.png</iconUrl>
+    <releaseNotes>Updated MariaDB to 10.1.26, Updated Apache to 2.4.27, Updated phpMyAdmin to 4.7.2</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
