@@ -16,9 +16,14 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/MuhammedKpln/chocolatey-packages/master/icons/xampp.png</iconUrl>
     <releaseNotes>Updated MariaDB to 10.1.26, Updated Apache to 2.4.27, Updated phpMyAdmin to 4.7.2</releaseNotes>
+    <dependencies>
+      <dependency id='vcredist2015' />
+    </dependencies>	
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
+
+
 </package>
 <!-- character encoding: “UTF-8” -->
