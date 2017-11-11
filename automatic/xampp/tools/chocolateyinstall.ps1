@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://www.apachefriends.org/xampp-files/7.1.8/xampp-win32-7.1.8-0-VC14-installer.exe' # download url, HTTPS preferred
+$url        = 'https://www.apachefriends.org/xampp-files/7.1.11/xampp-win32-7.1.11-0-VC14-installer.exe' # download url, HTTPS preferred
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,9 +10,9 @@ $packageArgs = @{
   url           = $url
 
   softwareName  = 'xampp*' 
-  checksum      = 'b4d2fe505d112d3e2b97fe7ba672f42a102139c0'
+  checksum      = '870D4BD37AC66F573D2FDB92BC577D37D1498C50'
   checksumType  = 'sha1'
-  checksum64    = 'b4d2fe505d112d3e2b97fe7ba672f42a102139c0'
+  checksum64    = '870D4BD37AC66F573D2FDB92BC577D37D1498C50'
   checksumType64= 'sha1'
 
   # MSI
@@ -21,4 +21,3 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-
