@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>iridium-browser</id>
+    <title>Iridium Browser</title>
+    <version>2017.11.1</version>
+    <authors>https://github.com/iridium-browser/iridium-browser</authors>
+    <owners>Muhammed Kaplan</owners>
+    <summary>Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure that the latest and best secure technologies are used. Automatic transmission of partial queries, keywords and metrics to central services is prevented and only occurs with the approval of the user. In addition, all our builds are reproducible and modifications are auditable, setting the project ahead of other secure browser providers.</summary>
+    <description>Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure that the latest and best secure technologies are used. Automatic transmission of partial queries, keywords and metrics to central services is prevented and only occurs with the approval of the user. In addition, all our builds are reproducible and modifications are auditable, setting the project ahead of other secure browser providers.</description>
+    <projectUrl>https://iridiumbrowser.de/</projectUrl>
+    <packageSourceUrl>https://github.com/MuhammedKpln/chocolatey-packages/</packageSourceUrl>
+    <tags>iridium browser privacy iridium-privacy</tags>
+    <copyright>Open Source / Chromium Authors</copyright>
+    <licenseUrl>https://github.com/iridium-browser/iridium-browser/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/MuhammedKpln/chocolatey-packages/master/icons/iridium-browser.png</iconUrl>
+    <releaseNotes>Updated Chromium to 62.0.3202.94</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+
+</package>
+<!-- character encoding: “UTF-8” -->
