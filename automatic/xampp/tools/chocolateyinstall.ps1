@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://www.apachefriends.org/xampp-files/7.2.1/xampp-win32-7.2.1-0-VC15-installer.exe' # download url, HTTPS preferred
+$url        = 'https://www.apachefriends.org/xampp-files/7.2.5/xampp-win32-7.2.5-0-VC15-installer.exe' # download url, HTTPS preferred
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,9 +10,9 @@ $packageArgs = @{
   url           = $url
 
   softwareName  = 'xampp*' 
-  checksum      = 'a38115af2912b8d772cdd683a215b91942741fbe'
+  checksum      = 'D7CEB1B7A8081141DD8CA6E69C305145150584E0'
   checksumType  = 'sha1'
-  checksum64    = 'a38115af2912b8d772cdd683a215b91942741fbe'
+  checksum64    = 'D7CEB1B7A8081141DD8CA6E69C305145150584E0'
   checksumType64= 'sha1'
 
   # MSI
