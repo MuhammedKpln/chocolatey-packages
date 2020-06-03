@@ -3,12 +3,12 @@
   <metadata>
     <id>Bitnami-XAMPP</id>
     <title>XAMPP</title>
-    <version>7.3.4</version>
+    <version>7.4.6</version>
     <authors>Bitnami</authors>
     <owners>Muhammed Kaplan</owners>
     <summary>Apache Server for your Windows.</summary>
     <description>XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl.</description>
-    <projectUrl>https://www.apachefriends.org/tr/index.html</projectUrl>
+    <projectUrl>https://www.apachefriends.org/index.html</projectUrl>
     <packageSourceUrl>https://github.com/MuhammedKpln/chocolatey-packages/</packageSourceUrl>
     <tags>xampp bitnami mysql</tags>
     <copyright>Bitnami</copyright>
