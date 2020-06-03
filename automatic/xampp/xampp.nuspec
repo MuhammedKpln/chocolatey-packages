@@ -15,7 +15,7 @@
     <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/MuhammedKpln/chocolatey-packages/master/icons/xampp.png</iconUrl>
-    <releaseNotes> Apache 2.4.39, MariaDB 10.1.38, PHP 7.3.4, phpMyAdmin 4.8.5, OpenSSL 1.1.1, XAMPP Control Panel 3.2.2, Webalizer 2.23-04, Mercury Mail Transport System 4.63, FileZilla FTP Server 0.9.41, Tomcat 7.0.92 (with mod_proxy_ajp as connector), Strawberry Perl 5.16.3.1 Portable</releaseNotes>
+    <releaseNotes>Apache 2.4.43, MariaDB 10.4.11, PHP 7.4.6, phpMyAdmin 5.0.2, OpenSSL 1.1.1, XAMPP Control Panel 3.2.4, Webalizer 2.23-04, Mercury Mail Transport System 4.63, FileZilla FTP Server 0.9.41, Tomcat 7.0.103 (with mod_proxy_ajp as connector), Strawberry Perl 5.16.3.1 Portable</releaseNotes>
     <dependencies>
       <dependency id='vcredist2015' />
     </dependencies>	
