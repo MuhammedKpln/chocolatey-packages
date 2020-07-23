@@ -3,7 +3,7 @@
   <metadata>
     <id>Bitnami-XAMPP</id>
     <title>XAMPP</title>
-    <version>7.4.6</version>
+    <version>7.4.8</version>
     <authors>Bitnami</authors>
     <owners>Muhammed Kaplan</owners>
     <summary>Apache Server for your Windows.</summary>
